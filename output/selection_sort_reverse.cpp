@@ -2,7 +2,7 @@
 #include<limits.h>
 using namespace std;
 int main() {
-    int arr[6]={10,4,3,8,2,1};
+    int arr[6]={10,4,3,8,2,1};//decreasing order
     for (int i=0;i<5;i++){
     
         for (int j=0;j<6-i-1;j++){
