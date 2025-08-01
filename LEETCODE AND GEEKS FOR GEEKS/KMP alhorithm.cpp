@@ -8,7 +8,7 @@ int main() {
 vector<int>lps(s.size(),0);
 int prefix=0;
 int suffix=1;
-while (suffix<s.size()){
+while (suffix <s.size()){
     if (s[prefix]==s[suffix]){
         lps[suffix]=prefix+1;
         prefix++;
