@@ -13,14 +13,10 @@ int main() {
     cout<<"enter size for arrays"<<endl;
     cin>>n;
     int *p=new int[n];
-
-    for (int i=0;i<n;i++){
-        cin>>p[i];
-    }
     for (int i=0;i<n;i++){
         cout<<p[i]<<endl;
     }
     delete ptr;
     delete ptr2;
-    delete[] p;                   
+    delete[] p; 
 }
