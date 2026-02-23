@@ -8,6 +8,11 @@ class stack {
     int size;
     int top;
 public:
+stack(){
+    size=100;
+    top=-1;
+    arr=new T[size];
+}
     stack(int s) {
         size = s;
         top = -1;
@@ -21,13 +26,13 @@ public:
             cout << "value " << x << " pushed\n";
         }
     }
-    void pop() {
-        if (top == -1) {
-            cout << "stack underflow\n";
-        } else {
-            cout << "popped " << arr[top--] << "\n";
-        }
+   void pop() {
+    if (top == -1) {
+        cout << "stack underflow\n";
+    } else {
+        top--;
     }
+}
     T peek() {
         if (top == -1) {
             cout << "stack is empty\n";
@@ -49,4 +54,4 @@ public:
     }
 };
 
-#endif
+#endif    
