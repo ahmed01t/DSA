@@ -20,8 +20,7 @@ bool check(string s){
 
 }
 int main(){
-string str="(((())))";
+string str=")))())))";
 cout<<check(str);
 return 0;
 }
-nnnn
