@@ -24,3 +24,4 @@ string str="(((())))";
 cout<<check(str);
 return 0;
 }
+nnnn
