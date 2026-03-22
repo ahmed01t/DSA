@@ -16,7 +16,6 @@ queue(int n){
 bool is_empty(){
     return front==-1;
 }
-
 bool is_full(){
     return rear==size-1;
 }
@@ -27,7 +26,7 @@ void push(int x){
         arr[0]=x;
     }
     else if( is_full()){
-        cout<<" queue overflow\n";
+        cout<<"queue overflow\n";
     }
     else{
         rear=rear+1;
