@@ -20,7 +20,7 @@ A collection of Data Structures and Algorithms implemented in C++.
 - Palindrome checks
 - String matching (brute force)
 - Kadane's Algorithm
-- Longest palindrome, panagram, and more
+- Longest palindrome, pangram, and more
 
 ### Stack
 - Stack implementation and operations
