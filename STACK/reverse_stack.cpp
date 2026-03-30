@@ -20,4 +20,3 @@ for(char c:s){
     cout<<c<<" "<<endl;
 }
 }
-////asda

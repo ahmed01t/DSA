@@ -17,9 +17,16 @@ class Solution {
           st.pop();
       }
       while(n--){
-          q.push(q.front());
+          q.push(q.front());  
           q.pop();
       }
         return q;
     }
-};
+};  
+
+
+
+
+
+
+
