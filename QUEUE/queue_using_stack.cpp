@@ -29,7 +29,7 @@ stack<int>s2;
             }
              int a=s2.top();
                 s2.pop();
-                            return a;
+            return a;
 
         }
     }
@@ -63,3 +63,9 @@ stack<int>s2;
  * int param_3 = obj->peek();
  * bool param_4 = obj->empty();
  */      
+
+
+
+
+
+
