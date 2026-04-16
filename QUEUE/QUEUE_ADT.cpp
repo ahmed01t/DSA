@@ -20,7 +20,7 @@ bool is_full(){
     return rear==size-1;
 }
 
-void push(int x){
+void push(int x){// enqueue
     if(is_empty()){
         front=rear=0;
         arr[0]=x;
