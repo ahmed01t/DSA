@@ -87,10 +87,10 @@ int main() {
     cout << "Linked List: ";
     list.display();
 
-    list.deleteValue(20);
+    //list.deleteValue(20);
 
     cout << "After Deletion: ";
-    list.display();
+   // list.display();
 
     return 0;
 }
