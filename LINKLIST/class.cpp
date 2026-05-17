@@ -12,8 +12,7 @@ public:
         next = NULL;
     }
 };
-
-// Linked List class
+//Linked List class
 class LinkedList {
 private:
     Node* head;
@@ -22,7 +21,6 @@ public:
     LinkedList() {
         head = NULL;
     }
-
     // Insert at end
     void insert(int val) {
         Node* newNode = new Node(val);
@@ -31,7 +29,6 @@ public:
             head = newNode;
             return;
         }
-
         Node* temp = head;
         while (temp->next != NULL) {
             temp = temp->next;
